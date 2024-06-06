@@ -1,0 +1,118 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* To push the elements to the edges */
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.headername {
+    flex-grow: 1; /* To allow it to grow and take up remaining space */
+    margin-right: auto; /* Pushes the logout button to the right */
+}
+
+.headname h4, .headname h5 {
+    display: block;
+    margin: 0;
+    margin-right: 100px;
+}
+
+.headername h1, .headername h3 {
+    margin: 0; /* Remove default margin */
+}
+
+.logout-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+form {
+    margin-top: 20px;
+}
+
+.position {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.position h3 {
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+

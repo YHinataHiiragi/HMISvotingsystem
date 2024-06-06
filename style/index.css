@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.headername {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headername h1, .headername h3 {
+    margin: 0;
+}
+
+.live-tally-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: auto; /* Align the button to the right */
+}
+
+.live-tally-btn:hover {
+    background-color: #0056b3;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+}
+
+.login-input {
+    margin-bottom: 20px; /* Decrease margin bottom */
+    padding: 10px;
+    font-size: 14px;
+    width: 90%; /* Take full width of parent container */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%; /* Take full width of parent container */
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
